@@ -1,0 +1,28 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+
+/* label focus color */
+.input-field input:focus + label {
+    color: #00437F !important;
+}
+/* label underline focus color */
+.row .input-field input:focus {
+    border-bottom: 1px solid #CC0100 !important;
+    box-shadow: 0 1px 0 0 #29b6f6 !important
+}
+
+.gif {
+    margin: 10px;
+}
